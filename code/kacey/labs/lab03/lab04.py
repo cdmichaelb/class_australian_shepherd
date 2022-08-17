@@ -10,7 +10,7 @@ def credit_card_validator(credit_card_number):
         
         print(input_list, ' this is the input list cc number converted to a list of strings')
         # pull the check digit and assign it to a variable called check_digit via .pop() method
-        check_digit = input_list.pop(-1) # 5
+        check_digit = inp ut_list.pop(-1) # 5
         # print(check_digit)
         
         print(input_list, ' this is the input list with the check_digit popped from it')
